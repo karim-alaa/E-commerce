@@ -1,0 +1,16 @@
+/* Start game_item */
+.game_item
+{
+    max-width: 1000px;
+}
+.game_item img
+{
+  min-height: 100px;  
+  min-width: 100px;
+}
+
+.game_item .container
+{
+    padding: 20px;
+}
+/*End game_item */

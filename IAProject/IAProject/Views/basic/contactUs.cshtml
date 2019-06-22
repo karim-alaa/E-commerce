@@ -1,0 +1,68 @@
+﻿<br/>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 well">
+            <form>
+                <fieldset class="form-group">
+                    <label for="recipetitle">Email Address</label>
+                    <input class="form-control" type="email" id="recipetitle" rows="5"  maxlength="100"></input>
+                    <small class="text-muted">Write here a valid email to feed you back a soon as possible</small>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="recipe-editor-ingredients">Message</label>
+                    <textarea class="form-control" id="recipe-editor-ingredients" rows="3"></textarea>
+                    <small class="text-muted">Explain what are you want say to us.</small>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label class="btn btn-default" for="recipe-editor-file-selector">
+                        <input id="recipe-editor-file-selector" type="file" style="display:none;">
+                        Upload Your File
+                    </label>
+                    <small class="text-muted">Upload an file if you want to explain some thing.</small>
+                </fieldset>
+                <br/>
+                <button type="submit" class="btn btn-primary" name="save-recipe-button" value="save-recipe-button" data-toggle="modal" data-target="#myModal">Send Message To Us</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br /><br />
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Message</h4>
+            </div>
+            <div class="modal-body">
+                Done, Message Has Been Send Successfuly.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
